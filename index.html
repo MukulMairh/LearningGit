@@ -1,1 +1,133 @@
-<html><h1>Hello there,How are you?</h1></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Ankushe Motor Driving School</title>
+    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="images/logo.png" alt="Logo" /></a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="center hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <ul class="right">
+            <li>
+              <a href="https://wa.me/7796848539" target="_blank" class="btn-floating btn-large waves-effect waves-light green">
+                <i class="fab fa-whatsapp"></i>
+              </a>+91 7796848539    
+              <li>
+                <a href="mailto:ankushemds@gmail.com" ><i class="far fa-envelope"></i>  ankushemds@gmail.com
+                </a>
+              </li>
+            </li>
+            
+          </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="images/car-an.gif" alt="First slide"></a>
+      <a class="carousel-item" href="#two!"><img src="images/city-grid.jpg" alt="Second slide"></a>
+      <a class="carousel-item" href="#three!"><img src="images/signs.jpg" alt="Third slide"></a>
+      <a class="carousel-item" href="#three!"><img src="images/traffice.jpeg" alt="Third slide"></a>
+    </div>
+    <hr/>
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Left column with image -->
+          <div class="col s12 m6">
+            <img src="images/p1.png" alt="Image" class="responsive-img">
+          </div>
+          <!-- Right column with information -->
+          <div class="col s12 m6">
+                <h4>Description</h4>
+                <p>
+                     Desciption Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste libero temporibus debitis! Tempora repellendus ut architecto doloribus aliquid saepe magni facilis delectus doloremque quibusdam esse ex laboriosam nulla, corporis aperiam!
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Deleniti officia facilis alias id itaque eveniet commodi voluptates, et quae reiciendis sit enim, 
+                    voluptatum, amet debitis tempora ut nulla dolores? Voluptate?
+                </p>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left column with image -->
+          
+          <!-- Right column with information -->
+          <div class="col s12 m6">
+                <h4>Description</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Deleniti officia facilis alias id itaque eveniet commodi voluptates, et quae reiciendis sit enim, 
+                    voluptatum, amet debitis tempora ut nulla dolores? Voluptate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quam libero assumenda est adipisci ad eaque, facilis molestias minima aliquam sunt vel voluptatum fuga quaerat velit officiis quibusdam? Officia.
+                </p>
+                
+          </div>
+          <div class="col s12 m6">
+            <img src="images/p2.png" alt="Image" class="responsive-img">
+        </div>
+        </div>
+      </div>
+      <hr/>
+
+    <!-- Mobile Sidenav -->
+    <ul class="sidenav" id="mobile-nav"> 
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <a href="https://wa.me/7796848539" target="_blank" class="whatsapp-link">
+          <i class="fab fa-whatsapp"></i> +917796848539
+        </a>
+      </li>
+      <li>
+        <a href="mailto:ankushemds@example.com" class="email">ankushemds@gmail.com
+            <i class="far fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      // Initialize Sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+
+      // Initialize Carousel
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {
+          fullWidth: true,
+          indicators: true
+        });
+
+        // Autoplay the carousel
+        setInterval(function() {
+          var instance = M.Carousel.getInstance(elems[0]);
+          instance.next();
+        }, 5000); // Adjust the interval as needed (in milliseconds)
+      });
+    </script>
+  </body>
+</html>

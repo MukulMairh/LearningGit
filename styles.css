@@ -1,0 +1,91 @@
+/* Custom Styles */
+nav {
+    
+    background-color: #5a645a;
+    height: 100px;
+    line-height: 80px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  .brand-logo img {
+    height: 100px;
+    padding: 4px;
+    
+  }
+  
+  .sidenav {
+    background-color: #5a645a;
+  }
+  
+  .sidenav li > a {
+    color: #fff;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+
+  .col .s12 .m6{
+    height: 200px;
+    width: 200px;
+  }
+
+  .right {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    width: 100%;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
+  .center li {
+    float: none;
+  }
+  
+  /* Fix WhatsApp icon display */
+  /* .btn-floating i {
+    font-size: 1.6rem;
+    line-height: inherit;
+  } */
+  
+  /* Center WhatsApp icon in circular button for mobile */
+  @media only screen and (max-width: 600px) {
+    .sidenav .btn-floating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  /* WhatsApp link in mobile sidenav */
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
+  
+  .whatsapp-link i {
+    margin-right: 8px;
+    
+  }
+
+  .carousel-item img {
+    max-width: 150%; /* Ensure images are responsive */
+    height: 500px; /* Maintain aspect ratio */
+    max-height: 800px; /* Set maximum height */
+  }
+
+  .responsive-img {
+    width: 500px;
+    height: auto;
+  }
+  
