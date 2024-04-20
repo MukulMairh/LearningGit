@@ -1,0 +1,39 @@
+Driving School : 
+
+Top navigation: 
+Logo: 
+Home 
+Services 
+About 
+Contact 
+
+Whatsapp
+email 
+-------
+Main content>> 
+Carousel containing images> 
+
+Our services> 
+Self Driving Training
+Vehicle Maintenance
+License & other certifications 
+and the list goes on... 
+
+ About: 
+ About section + testimonial 
+ Testimonials> Google Reviews..
+ Trainer> Image> and Exp..
+
+Contact: 
+Location, Phone , Email, Maps = Cards ... Whatsapp 
+-----
+Contact US: 
+form: 
+Name, Email, Phone, your message. Send message. 
+
+
+-----
+Footer 
+Logo - Copyright 
+Connect us on various channels[Instagram, youtube, whatsapp]
+-----
