@@ -1,6 +1,6 @@
 Driving School : 
 
-Top navigation: 
+Top navigation: Mukul has added this in requirements branch. Requires changes related to integrations 
 Logo: 
 Home 
 Services 
@@ -11,7 +11,7 @@ Whatsapp
 email 
 -------
 Main content>> 
-Carousel containing images> 
+Carousel containing images> Swapnil added these 
 
 Our services> 
 Self Driving Training
