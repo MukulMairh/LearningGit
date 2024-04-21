@@ -1,0 +1,84 @@
+nav {
+    
+    background-color: #5a645a;
+    height: 100px;
+    line-height: 80px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  .brand-logo img {
+    height: 100px;
+    padding: 4px;
+    
+  }
+  
+  .sidenav {
+    background-color: #5a645a;
+  }
+  
+  .sidenav li > a {
+    color: #fff;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+
+  .col .s12 .m6{
+    height: 200px;
+    width: 200px;
+  }
+
+  .right {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    width: 100%;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
+  .center li {
+    float: none;
+  }
+  
+  /* Center WhatsApp icon in circular button for mobile */
+  @media only screen and (max-width: 600px) {
+    .sidenav .btn-floating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  /* WhatsApp link in mobile sidenav */
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
+  
+  .whatsapp-link i {
+    margin-right: 8px;
+    
+  }
+
+  .carousel-item img {
+    max-width: 150%;  
+    height: 500px;
+    max-height: 800px; 
+  }
+
+  .responsive-img {
+    width: 500px;
+    height: auto;
+  }
+  
